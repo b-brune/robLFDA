@@ -1,4 +1,4 @@
-This folder contains supplemental code for the paper `Robust marginal functional principal component analysis for repeated measurements data" (Brune, Radojicic, Filzmoser, 2024).
+This folder contains supplemental code for the paper "Robust marginal FPCA for repeated or longitudinal functional measurements" (Brune, Radojicic, Greven, Filzmoser, 2025).
 
 The provided code requires the `robLFDA ` R-package as available on GitHub. It can be installed by running `devtools::install_github("b-brune/robLFDA")` in the R console.
 
