@@ -1,1 +1,1 @@
-Implementation of the methodology proposed in "Robust marginal functional principal component analysis for repeated functional measurements" (Brune, Radojicic, Greven, Filzmoser, 2025+).
+Implementation of the methodology proposed in "Robust marginal FPCA for repeated or longitudinal functional measurements" (Brune, Radojicic, Greven, Filzmoser, 2025+).
