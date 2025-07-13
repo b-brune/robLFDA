@@ -1,0 +1,29 @@
+Package: robLFDA
+Title: Robust functional principal component analysis for longitudinal functional data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Barbara", "Brune", , "barbara.brune@ymail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-3154-8445"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    dplyr,
+    fda,
+    ggplot2,
+    glue,
+    kneedle,
+    Matrix,
+    MatrixModels,
+    mgcv,
+    quantreg,
+    refund,
+    reshape2,
+    rlog,
+    robustlmm,
+    rrcov,
+    RSpectra,
+    SparseM,
+    tidyr

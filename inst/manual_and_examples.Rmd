@@ -1,0 +1,30 @@
+---
+title: "Robust marginal FPCA for repeated measurements data"
+author: "Barbara Brune"
+date: "2024-09-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(robLFDA)
+library(RBF)
+```
+
+# Estimation algorithm 
+
+Model estimation is performed in three steps:
+
+1. Estimation of the mean function $\mu(\cdot, \cdot)$ by employing a bivariate smoothing algorithm.
+2. Estimation of the marginal covariance function, the eigencomponents $\{\lambda_k, \phi_k(\cdot)\}_{k\geq 1}$.
+3. Estimation of the scores $\xi_{ik}(t_{ij})$ and smoothing to obtain estimates of the score functions $\xi_{ik}(t)$ at all points $t\in\mT$.
+
+This repository provides a way to estimate the model in three steps.
+
+## Generate data
+
+
